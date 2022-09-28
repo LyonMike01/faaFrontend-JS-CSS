@@ -1,0 +1,49 @@
+body, html {
+	margin: 40px;
+}
+
+#main {
+	height: 250px;
+	background: rgb(24, 3388, 250);
+	width: 400px;
+	box-sizing: border-box;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+label, input, button {
+	display: block;
+	margin: 10px auto;
+}
+
+input {
+	border: none;
+	height: 20px;
+}
+input:focus{
+	background: rgb(111, 0, 78);
+	border: none;
+}
+
+button {
+	border: none;
+	height: 25px;
+	width: 100px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background: black;
+	color: white;
+}
+button:after{
+	background: blue;
+}
+
+p:first-letter{
+	color: pink;
+	font-size: 40px;
+}
+
